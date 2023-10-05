@@ -22,7 +22,7 @@ const ItStartupPage = () => (
 
     <MainBanner />
 
-    <Features />
+    {/* <Features /> */}
 
     <ServicesArea />
 
