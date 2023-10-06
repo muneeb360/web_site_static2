@@ -28,19 +28,15 @@ const Services = () => (
 
     <OurFeatures />
 
-    <Team />
+    
 
     <FunFactsArea />
 
-    <RecentWorks />
-
-    <PricingStyleOne />
-
+   
     <Feedback />
 
     <Partner />
 
-    <BlogPost />
 
     <Footer />
  
