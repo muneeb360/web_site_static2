@@ -38,7 +38,7 @@ const NavbarStyleFour = () => {
         <div className="container">
           <nav className="navbar navbar-expand-md navbar-light">
             <Link
-              to="/bigdata-analytics"
+              to="/"
               onClick={toggleNavbar}
               className="navbar-brand"
             >
@@ -64,7 +64,7 @@ const NavbarStyleFour = () => {
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
                   <Link
-                    to="#" 
+                    to="/" 
                     onClick={e => e.preventDefault()}
                     className="nav-link"
                   >
@@ -186,14 +186,15 @@ const NavbarStyleFour = () => {
                 </li>
 
                 <li className="nav-item">
-                  <Link
-                    to="/about-2"
-                    onClick={e => e.preventDefault()}
-                    className="nav-link"
-                  >
-                    About 
-                    {/* <Icon.ChevronDown /> */}
-                  </Link>
+                          <Link
+                            to="/services"
+                            activeClassName="active"
+                            onClick={toggleNavbar}
+                            className="nav-link"
+                          >
+                            Services
+                          </Link>
+                  </li>
 
                   {/* <ul className="dropdown-menu">
                     <li className="nav-item">
@@ -229,15 +230,15 @@ const NavbarStyleFour = () => {
                       </Link>
                     </li>
                   </ul> */}
-                </li>
+               
                 <li className="nav-item">
                           <Link
-                            to="/it-startup"
+                            to="/company"
                             activeClassName="active"
                             onClick={toggleNavbar}
                             className="nav-link"
                           >
-                            Services
+                            Company
                           </Link>
                         </li>
                 {/* <li className="nav-item">
@@ -664,16 +665,7 @@ const NavbarStyleFour = () => {
                     </li>
                   </ul>
                 </li> */}
-                      <li className="nav-item">
-                      <Link
-                        to="#"
-                        activeClassName="active"
-                        onClick={toggleNavbar}
-                        className="nav-link"
-                      >
-                        Company
-                      </Link>
-                    </li>
+                      
                 <li className="nav-item">
                   <Link
                     to="/contact"
