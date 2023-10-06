@@ -1,8 +1,8 @@
 import * as React from "react"
 import Layout from "../components/_App/layout"
 import Seo from "../components/_App/seo"
-import NavbarStyleThree from "../components/_App/NavbarStyleThree"
-import MainBanner from "../components/MachineLearningTwo/MainBanner"
+import NavbarStyleFour from "../components/_App/NavbarStyleFour"
+import MainBanner from "../components/BigdataAnalytics/MainBanner"
 import Partner from "../components/MachineLearningTwo/Partner"
 import WhatWeOffer from "../components/MachineLearningTwo/WhatWeOffer"
 import AboutUsContent from "../components/MachineLearningTwo/AboutUsContent"
@@ -20,8 +20,9 @@ import Services from "../components/BigdataAnalytics/Services"
 
 const MachineLearningHomePage2 = () => (
   <Layout>
-    <NavbarStyleThree />
+    <NavbarStyleFour />
     <MainBanner />
+    
     {/* <Partner /> */}
     <WhatWeOffer />
     <AboutUsContent />
