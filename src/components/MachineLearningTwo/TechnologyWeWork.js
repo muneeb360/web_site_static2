@@ -47,7 +47,7 @@ class TechnologyWeWork extends Component {
         <div className="pricing-area pb-50">
           <div className="container">
             <div className="section-title">
-              <h2>Our Pricing Plan</h2>
+              <h2>Technologies We Work</h2>
               <div className="bar"></div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -62,14 +62,26 @@ class TechnologyWeWork extends Component {
                   onClick={e => this.openTabSection(e, "tab1")}
                   aria-hidden="true"
                 >
-                  Monthly Plan
+                  Shopify
                 </li>
 
                 <li
                   onClick={e => this.openTabSection(e, "tab2")}
                   aria-hidden="true"
                 >
-                  Yearly Plan
+                  Wordpress
+                </li>
+                <li
+                  onClick={e => this.openTabSection(e, "tab2")}
+                  aria-hidden="true"
+                >
+                  Node Js
+                </li>
+                <li
+                  onClick={e => this.openTabSection(e, "tab2")}
+                  aria-hidden="true"
+                >
+                  React Js
                 </li>
               </ul>
 
