@@ -33,7 +33,7 @@ const MachineLearningHomePage2 = () => (
     <FeedbackStyleFour />
     {/* <BlogCard /> */}
     <Newsletter />
-    <TechnologyWeWork />
+    {/* <TechnologyWeWork /> */}
     <Footer />
   </Layout>
 )
