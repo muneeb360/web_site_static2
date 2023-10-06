@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="container">
           <nav className="navbar navbar-expand-md navbar-light">
             <Link
-              to="/machine-learning-2"
+              to="/"
               onClick={toggleNavbar}
               className="navbar-brand"
             >
@@ -183,7 +183,7 @@ const Navbar = () => {
                 {/* </li> */}
                 <li className="nav-item">
                       <Link
-                        to="/machine-learning-2"
+                        to="/"
                         activeClassName="active"
                         onClick={toggleNavbar}
                         className="nav-link"
@@ -237,7 +237,7 @@ const Navbar = () => {
                 {/* </li> */}
                 <li className="nav-item">
                           <Link
-                            to="/it-startup"
+                            to="/services"
                             activeClassName="active"
                             onClick={toggleNavbar}
                             className="nav-link"
@@ -247,7 +247,7 @@ const Navbar = () => {
                   </li>
                 <li className="nav-item">
                       <Link
-                        to="/about-2"
+                        to="/company"
                         activeClassName="active"
                         onClick={toggleNavbar}
                         className="nav-link"

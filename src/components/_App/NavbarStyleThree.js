@@ -35,7 +35,7 @@ const NavbarStyleThree = () => {
         <div className="container-fluid">
           <nav className="navbar navbar-expand-md navbar-light">
             <Link
-              to="/machine-learning-2"
+              to="/"
               onClick={toggleNavbar}
               className="navbar-brand"
             >
@@ -61,7 +61,7 @@ const NavbarStyleThree = () => {
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
                   <Link
-                    to="#" 
+                    to="/" 
                     onClick={e => e.preventDefault()}
                     className="nav-link"
                   >
@@ -230,7 +230,7 @@ const NavbarStyleThree = () => {
 
                 <li className="nav-item">
                           <Link
-                            to="/it-startup"
+                            to="/services"
                             activeClassName="active"
                             onClick={toggleNavbar}
                             className="nav-link"
@@ -240,7 +240,7 @@ const NavbarStyleThree = () => {
                   </li>
                 <li className="nav-item">
                       <Link
-                        to="/about-2"
+                        to="/company"
                         activeClassName="active"
                         onClick={toggleNavbar}
                         className="nav-link"

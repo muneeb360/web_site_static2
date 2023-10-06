@@ -1,49 +1,40 @@
 import * as React from "react"
 import Layout from "../components/_App/layout"
 import Seo from "../components/_App/seo"
-import Navbar from "../components/_App/Navbar"
-import MainBanner from "../components/ITStartup/MainBanner"
-import Features from "../components/ITStartup/Features"
-import ServicesArea from "../components/ITStartup/ServicesArea"
-import OurFeatures from "../components/ITStartup/OurFeatures"
-import Team from "../components/Common/Team"
+import NavbarStyleThree from "../components/_App/NavbarStyleThree"
+import MainBanner from "../components/MachineLearningTwo/MainBanner"
+import Partner from "../components/MachineLearningTwo/Partner"
+import WhatWeOffer from "../components/MachineLearningTwo/WhatWeOffer"
+import AboutUsContent from "../components/MachineLearningTwo/AboutUsContent"
+import OurServices from "../components/MachineLearningTwo/OurServices"
 import FunFactsArea from "../components/Common/FunFactsArea"
-import RecentWorks from "../components/Common/RecentWorks"
-import PricingStyleOne from "../components/PricingPlans/PricingStyleOne"
-import Feedback from "../components/Common/Feedback"
-import Partner from "../components/Common/Partner"
-import BlogPost from "../components/Common/BlogPost"
+import Projects from "../components/MachineLearningTwo/Projects"
+import PricingStyleFour from "../components/PricingPlans/PricingStyleFour"
+import TechnologyWeWork from "../components/MachineLearningTwo/TechnologyWeWork"
+import FeedbackStyleFour from "../components/Common/FeedbackStyleFour"
+import BlogCard from "../components/MachineLearningTwo/BlogCard"
+import Newsletter from "../components/Common/Newsletter"
 import Footer from "../components/_App/Footer"
+import Services from "../components/BigdataAnalytics/Services"
 
-const IndexPage = () => (
+
+const MachineLearningHomePage2 = () => (
   <Layout>
-
-    <Navbar />
-
+    <NavbarStyleThree />
     <MainBanner />
-
-    <Features />
-
-    <ServicesArea />
-
-    <OurFeatures />
-
-    <Team />
-
+    {/* <Partner /> */}
+    <WhatWeOffer />
+    <AboutUsContent />
+    <Services />
+    {/* <OurServices /> */}
     <FunFactsArea />
-
-    <RecentWorks />
-
-    <PricingStyleOne />
-
-    <Feedback />
-
-    <Partner />
-
-    <BlogPost />
-
+    <Projects />
+    <PricingStyleFour />
+    <FeedbackStyleFour />
+    {/* <BlogCard /> */}
+    <Newsletter />
+    {/* <TechnologyWeWork /> */}
     <Footer />
- 
   </Layout>
 )
 
@@ -52,6 +43,6 @@ const IndexPage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="Machine Learning 2" />
 
-export default IndexPage
+export default MachineLearningHomePage2
