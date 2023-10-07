@@ -680,10 +680,10 @@ const NavbarStyleFour = () => {
             </div>
 
             <div className="others-option">
-              <Link to="/cart" className="cart-wrapper-btn">
+              {/* <Link to="/cart" className="cart-wrapper-btn">
                 <Icon.ShoppingCart />
                 <span>0</span>
-              </Link>
+              </Link> */}
 
               <Link to="/contact" className="btn btn-primary">
                 Support
