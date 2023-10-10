@@ -8433,3 +8433,25 @@ Go Top CSS
   padding: 5px;
   margin: 0 10px;
 }/*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+.mega_menu_fl {
+  display: flex;
+}
+.startp-nav nav .navbar-nav .nav-item .dropdown-menu{
+  width: 530px!important;
+  margin-left: -75px!important;
+}
+
+.menu333 {
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+.menu111 {
+  margin-left: 10px;
+}
