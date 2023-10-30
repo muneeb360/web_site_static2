@@ -165,7 +165,13 @@ const Services = () => {
             </div>
           </div>
         </div>
+        <div className="read_more_services">
+      <Link to="/contact" className="btn btn-primary read_more_btn">
+                Read More
+              </Link> 
       </div>
+      </div>
+     
     </>
   )
 }
