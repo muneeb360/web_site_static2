@@ -2,7 +2,7 @@ import * as React from "react"
 import Layout from "../components/_App/layout"
 import Seo from "../components/_App/seo"
 import NavbarStyleFour from "../components/_App/NavbarStyleFour"
-import MainBanner from "../components/BigdataAnalytics/MainBanner"
+import MainBanner from "../components/ITStartup/MainBanner"
 import Partner from "../components/MachineLearningTwo/Partner"
 import WhatWeOffer from "../components/MachineLearningTwo/WhatWeOffer"
 import AboutUsContent from "../components/MachineLearningTwo/AboutUsContent"
@@ -16,11 +16,13 @@ import BlogCard from "../components/MachineLearningTwo/BlogCard"
 import Newsletter from "../components/Common/Newsletter"
 import Footer from "../components/_App/Footer"
 import Services from "../components/BigdataAnalytics/Services"
+import Navbar from "../components/_App/Navbar"
 
 
 const MachineLearningHomePage2 = () => (
   <Layout>
-    <NavbarStyleFour />
+     <Navbar />
+    {/* <NavbarStyleFour /> */}
     <MainBanner />
     
     {/* <Partner /> */}
