@@ -124,6 +124,23 @@ const OurServices = () => {
                 </Link>
               </div>
             </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="single-repair-services bg6">
+                <div className="icon">
+                  <i className="flaticon-chip"></i>
+                </div>
+
+                <h3>On-Demand Services</h3>
+                <p>
+                  Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do
+                  eiusmod tempor incididunt ut labore dolore magna aliqua.
+                </p>
+
+                <Link to="/service-details">
+                  <Icon.ArrowRight />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>

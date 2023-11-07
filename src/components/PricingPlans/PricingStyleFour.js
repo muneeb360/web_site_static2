@@ -63,26 +63,26 @@ class PricingStyleFour extends Component {
                   onClick={e => this.openTabSection(e, "tab1")}
                   aria-hidden="true"
                 >
-                  Web Development
+                  Web
                 </li>
 
                 <li
                   onClick={e => this.openTabSection(e, "tab2")}
                   aria-hidden="true"
                 >
-                  App Development
+                  Mobile App
                 </li>
                 <li
                   onClick={e => this.openTabSection(e, "tab3")}
                   aria-hidden="true"
                 >
-                  Cloud Hosting
+                  AI/ML/CV/NLP
                 </li>
                 <li
                   onClick={e => this.openTabSection(e, "tab4")}
                   aria-hidden="true"
                 >
-                  blockchain
+                  Cloud
                 </li>
               </ul>
 
