@@ -228,7 +228,7 @@ class PricingStyleFour extends Component {
                 </div>
               </div>
 
-              <div className="tab_content">
+             
                 <div id="tab3" className="tabs_item">
                 <div className="ml-partner-area mt-minus-top ptb-80 pb-0">
                     <div className="container">
@@ -270,7 +270,8 @@ class PricingStyleFour extends Component {
                       </Swiper>
                     </div>
                   </div> 
-                </div>
+                  </div>
+                
 
                 <div id="tab4" className="tabs_item">
                 <div className="ml-partner-area mt-minus-top ptb-80 pb-0">
@@ -330,50 +331,50 @@ class PricingStyleFour extends Component {
                 </div>
                 <div id="tab5" className="tabs_item">
                 <div className="ml-partner-area mt-minus-top ptb-80 pb-0">
-        <div className="container">
-         <Swiper
-            slidesPerView={1}
-            spaceBetween={10}
-            breakpoints={{
-              0: {
-                slidesPerView: 2,
-              },
-              768: {
-                slidesPerView: 4,
-              },
-              1200: {
-                slidesPerView: 6,
-              },
-            }}
-            autoplay={{
-              delay: 6500,
-              disableOnInteraction: true,
-              pauseOnMouseEnter: true,
-            }}
-            modules={[Autoplay]}
-            className="partner-slides"
-          >
-            <SwiperSlide className="single-ml-partner">
-              <img src={blockchainimage1} alt="Partner" />
-              <img src={blockchainimage1} alt="Partner" />
-            </SwiperSlide>
-            <SwiperSlide className="single-ml-partner">
-              <img src={blockchainimage2} alt="Partner" />
-              <img src={blockchainimage2} alt="Partner" />
-            </SwiperSlide>
-            
-            <SwiperSlide className="single-ml-partner">
-              <img src={blockchainimage3} alt="Partner" />
-              <img src={blockchainimage3} alt="Partner" />
-            </SwiperSlide>
-          
-          </Swiper> 
-          
-        </div>
-      </div>
+                  <div className="container">
+                  <Swiper
+                      slidesPerView={1}
+                      spaceBetween={10}
+                      breakpoints={{
+                        0: {
+                          slidesPerView: 2,
+                        },
+                        768: {
+                          slidesPerView: 4,
+                        },
+                        1200: {
+                          slidesPerView: 6,
+                        },
+                      }}
+                      autoplay={{
+                        delay: 6500,
+                        disableOnInteraction: true,
+                        pauseOnMouseEnter: true,
+                      }}
+                      modules={[Autoplay]}
+                      className="partner-slides"
+                    >
+                      <SwiperSlide className="single-ml-partner">
+                        <img src={blockchainimage1} alt="Partner" />
+                        <img src={blockchainimage1} alt="Partner" />
+                      </SwiperSlide>
+                      <SwiperSlide className="single-ml-partner">
+                        <img src={blockchainimage2} alt="Partner" />
+                        <img src={blockchainimage2} alt="Partner" />
+                      </SwiperSlide>
+                      
+                      <SwiperSlide className="single-ml-partner">
+                        <img src={blockchainimage3} alt="Partner" />
+                        <img src={blockchainimage3} alt="Partner" />
+                      </SwiperSlide>
+                    
+                    </Swiper> 
+                    
+                  </div>
+              </div>
                 </div>
               </div>
-            </div>
+            
           </div>
 
           {/* Shape Images */}
