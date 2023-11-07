@@ -40,6 +40,7 @@ import gcplogoimg23 from "../../images/partner-img/aws_logo.png"
 import gcplogoimg236 from "../../images/partner-img/algorand-algo-logo.png"
 import celologo from "../../images/partner-img/celo-celo-logo.png"
 import binanancelogo from "../../images/partner-img/binance-coin.png"
+import solanalogo from "../../images/partner-img/solana-sol-logo.png"
 class PricingStyleFour extends Component {
   openTabSection = (evt, tabNmae) => {
     let i, tabcontent, tablinks
@@ -369,6 +370,10 @@ class PricingStyleFour extends Component {
                       <SwiperSlide className="single-ml-partner">
                         <img src={binanancelogo} alt="Partner" />
                         <img src={binanancelogo} alt="Partner" />
+                      </SwiperSlide>
+                      <SwiperSlide className="single-ml-partner">
+                        <img src={solanalogo} alt="Partner" />
+                        <img src={solanalogo} alt="Partner" />
                       </SwiperSlide>
                       
                     </Swiper> 
