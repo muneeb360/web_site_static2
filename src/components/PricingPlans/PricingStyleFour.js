@@ -87,6 +87,12 @@ class PricingStyleFour extends Component {
                 >
                   Cloud
                 </li>
+                <li
+                  onClick={e => this.openTabSection(e, "tab5")}
+                  aria-hidden="true"
+                >
+                  BlockChain
+                </li>
               </ul>
 
               <div className="tab_content">
@@ -262,6 +268,62 @@ class PricingStyleFour extends Component {
                 </div>
 
                 <div id="tab4" className="tabs_item">
+                <div className="ml-partner-area mt-minus-top ptb-80 pb-0">
+        <div className="container">
+          {/* <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            breakpoints={{
+              0: {
+                slidesPerView: 2,
+              },
+              768: {
+                slidesPerView: 4,
+              },
+              1200: {
+                slidesPerView: 6,
+              },
+            }}
+            autoplay={{
+              delay: 6500,
+              disableOnInteraction: true,
+              pauseOnMouseEnter: true,
+            }}
+            modules={[Autoplay]}
+            className="partner-slides"
+          >
+            <SwiperSlide className="single-ml-partner">
+              <img src={PartnerImg1} alt="Partner" />
+              <img src={PartnerHoverImg1} alt="Partner" />
+            </SwiperSlide>
+
+            <SwiperSlide className="single-ml-partner">
+              <img src={PartnerImg2} alt="Partner" />
+              <img src={PartnerHoverImg2} alt="Partner" />
+            </SwiperSlide>
+
+            <SwiperSlide className="single-ml-partner">
+              <img src={PartnerImg3} alt="Partner" />
+              <img src={PartnerHoverImg3} alt="Partner" />
+            </SwiperSlide>
+
+         
+            <SwiperSlide className="single-ml-partner">
+              <img src={PartnerImg5} alt="Partner" />
+              <img src={PartnerHoverImg5} alt="Partner" />
+            </SwiperSlide>
+
+            <SwiperSlide className="single-ml-partner">
+              <img src={PartnerImg6} alt="Partner" />
+              <img src={PartnerHoverImg6} alt="Partner" />
+            </SwiperSlide>
+
+          
+          </Swiper> */}
+        </div>
+      </div>
+                </div>
+                <div id="tab5" className="tabs_item">
                 <div className="ml-partner-area mt-minus-top ptb-80 pb-0">
         <div className="container">
           {/* <Swiper
