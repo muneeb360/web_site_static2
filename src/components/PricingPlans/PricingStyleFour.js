@@ -37,7 +37,7 @@ import phythonlogo from "../../images/partner-img/phytonlogo.png"
 import gcplogoimg from "../../images/partner-img/gcp_logo.png"
 import gcplogoimg2 from "../../images/partner-img/azure.png"
 import gcplogoimg23 from "../../images/partner-img/aws_logo.png"
-
+import gcplogoimg236 from "../../images/partner-img/algorand-algo-logo.png"
 
 class PricingStyleFour extends Component {
   openTabSection = (evt, tabNmae) => {
@@ -357,7 +357,11 @@ class PricingStyleFour extends Component {
                         <img src={blockchainimage3} alt="Partner" />
                         <img src={blockchainimage3} alt="Partner" />
                       </SwiperSlide>
-                    
+                      <SwiperSlide className="single-ml-partner">
+                        <img src={gcplogoimg236} alt="Partner" />
+                        <img src={gcplogoimg236} alt="Partner" />
+                      </SwiperSlide>
+                      
                     </Swiper> 
                     
                   </div>
