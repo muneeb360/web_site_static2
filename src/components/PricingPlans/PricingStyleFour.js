@@ -38,7 +38,7 @@ import gcplogoimg from "../../images/partner-img/gcp_logo.png"
 import gcplogoimg2 from "../../images/partner-img/azure.png"
 import gcplogoimg23 from "../../images/partner-img/aws_logo.png"
 import gcplogoimg236 from "../../images/partner-img/algorand-algo-logo.png"
-
+import celologo from "../../images/partner-img/celo-celo-logo.png"
 class PricingStyleFour extends Component {
   openTabSection = (evt, tabNmae) => {
     let i, tabcontent, tablinks
@@ -360,6 +360,10 @@ class PricingStyleFour extends Component {
                       <SwiperSlide className="single-ml-partner">
                         <img src={gcplogoimg236} alt="Partner" />
                         <img src={gcplogoimg236} alt="Partner" />
+                      </SwiperSlide>
+                      <SwiperSlide className="single-ml-partner">
+                        <img src={celologo} alt="Partner" />
+                        <img src={celologo} alt="Partner" />
                       </SwiperSlide>
                       
                     </Swiper> 
