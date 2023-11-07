@@ -26,7 +26,8 @@ import PartnerImg7 from "../../images/partner-img/icons8-vue-js-48.png"
 import PartnerHoverImg7 from "../../images/partner-img/icons8-vue-js-48.png"
 import mobileappimage1 from "../../images/partner-img/swift_mobile_app.png"
 import flutterimage2 from "../../images/partner-img/flutter_icon.png"
-
+import mobileimageionic from "../../images/partner-img/Ionic_icon.png"
+import mobileimageclanguage from "../../images/partner-img/c_langauge.png"
 class PricingStyleFour extends Component {
   openTabSection = (evt, tabNmae) => {
     let i, tabcontent, tablinks
@@ -193,7 +194,17 @@ class PricingStyleFour extends Component {
                           <img src={flutterimage2} alt="Partner" />
                           <img src={flutterimage2} alt="Partner" />
                         </SwiperSlide>
+                      
+                      <SwiperSlide className="single-ml-partner">
+                          <img src={mobileimageionic} alt="Partner" />
+                          <img src={mobileimageionic} alt="Partner" />
+                        </SwiperSlide>
+                        <SwiperSlide className="single-ml-partner">
+                          <img src={mobileimageclanguage} alt="Partner" />
+                          <img src={mobileimageclanguage} alt="Partner" />
+                        </SwiperSlide>
                       </Swiper>
+                      
                     </div>
                   </div>
                 </div>
