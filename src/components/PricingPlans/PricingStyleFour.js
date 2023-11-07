@@ -28,6 +28,10 @@ import mobileappimage1 from "../../images/partner-img/swift_mobile_app.png"
 import flutterimage2 from "../../images/partner-img/flutter_icon.png"
 import mobileimageionic from "../../images/partner-img/Ionic_icon.png"
 import mobileimageclanguage from "../../images/partner-img/c_langauge.png"
+import blockchainimage1 from "../../images/partner-img/blockchain_p.png"
+import blockchainimage2 from "../../images/partner-img/ethereum.png"
+import blockchainimage3 from "../../images/partner-img/cardano_logo.png"
+
 class PricingStyleFour extends Component {
   openTabSection = (evt, tabNmae) => {
     let i, tabcontent, tablinks
@@ -326,7 +330,7 @@ class PricingStyleFour extends Component {
                 <div id="tab5" className="tabs_item">
                 <div className="ml-partner-area mt-minus-top ptb-80 pb-0">
         <div className="container">
-          {/* <Swiper
+         <Swiper
             slidesPerView={1}
             spaceBetween={10}
             breakpoints={{
@@ -349,33 +353,21 @@ class PricingStyleFour extends Component {
             className="partner-slides"
           >
             <SwiperSlide className="single-ml-partner">
-              <img src={PartnerImg1} alt="Partner" />
-              <img src={PartnerHoverImg1} alt="Partner" />
+              <img src={blockchainimage1} alt="Partner" />
+              <img src={blockchainimage1} alt="Partner" />
             </SwiperSlide>
-
             <SwiperSlide className="single-ml-partner">
-              <img src={PartnerImg2} alt="Partner" />
-              <img src={PartnerHoverImg2} alt="Partner" />
+              <img src={blockchainimage2} alt="Partner" />
+              <img src={blockchainimage2} alt="Partner" />
             </SwiperSlide>
-
+            
             <SwiperSlide className="single-ml-partner">
-              <img src={PartnerImg3} alt="Partner" />
-              <img src={PartnerHoverImg3} alt="Partner" />
+              <img src={blockchainimage3} alt="Partner" />
+              <img src={blockchainimage3} alt="Partner" />
             </SwiperSlide>
-
-         
-            <SwiperSlide className="single-ml-partner">
-              <img src={PartnerImg5} alt="Partner" />
-              <img src={PartnerHoverImg5} alt="Partner" />
-            </SwiperSlide>
-
-            <SwiperSlide className="single-ml-partner">
-              <img src={PartnerImg6} alt="Partner" />
-              <img src={PartnerHoverImg6} alt="Partner" />
-            </SwiperSlide>
-
           
-          </Swiper> */}
+          </Swiper> 
+          
         </div>
       </div>
                 </div>
