@@ -34,6 +34,9 @@ import blockchainimage3 from "../../images/partner-img/cardano_logo.png"
 import ainplmlimage from "../../images/partner-img/tensorflow_logo.png"
 import ainplmlimage2 from "../../images/partner-img/chatgptimage.png"
 import phythonlogo from "../../images/partner-img/phytonlogo.png"
+import gcplogoimg from "../../images/partner-img/gcp_logo.png"
+import gcplogoimg2 from "../../images/partner-img/azure.png"
+import gcplogoimg23 from "../../images/partner-img/aws_logo.png"
 
 
 class PricingStyleFour extends Component {
@@ -276,7 +279,7 @@ class PricingStyleFour extends Component {
                 <div id="tab4" className="tabs_item">
                 <div className="ml-partner-area mt-minus-top ptb-80 pb-0">
         <div className="container">
-          {/* <Swiper
+         <Swiper
             slidesPerView={1}
             spaceBetween={10}
             breakpoints={{
@@ -299,33 +302,20 @@ class PricingStyleFour extends Component {
             className="partner-slides"
           >
             <SwiperSlide className="single-ml-partner">
-              <img src={PartnerImg1} alt="Partner" />
-              <img src={PartnerHoverImg1} alt="Partner" />
+              <img src={gcplogoimg} alt="Partner" />
+              <img src={gcplogoimg} alt="Partner" />
             </SwiperSlide>
-
             <SwiperSlide className="single-ml-partner">
-              <img src={PartnerImg2} alt="Partner" />
-              <img src={PartnerHoverImg2} alt="Partner" />
+              <img src={gcplogoimg2} alt="Partner" />
+              <img src={gcplogoimg2} alt="Partner" />
             </SwiperSlide>
-
             <SwiperSlide className="single-ml-partner">
-              <img src={PartnerImg3} alt="Partner" />
-              <img src={PartnerHoverImg3} alt="Partner" />
+              <img src={gcplogoimg23} alt="Partner" />
+              <img src={gcplogoimg23} alt="Partner" />
             </SwiperSlide>
-
-         
-            <SwiperSlide className="single-ml-partner">
-              <img src={PartnerImg5} alt="Partner" />
-              <img src={PartnerHoverImg5} alt="Partner" />
-            </SwiperSlide>
-
-            <SwiperSlide className="single-ml-partner">
-              <img src={PartnerImg6} alt="Partner" />
-              <img src={PartnerHoverImg6} alt="Partner" />
-            </SwiperSlide>
-
+            
           
-          </Swiper> */}
+          </Swiper> 
         </div>
       </div>
                 </div>
