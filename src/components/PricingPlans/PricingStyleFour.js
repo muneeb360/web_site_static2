@@ -33,7 +33,7 @@ import blockchainimage2 from "../../images/partner-img/ethereum.png"
 import blockchainimage3 from "../../images/partner-img/cardano_logo.png"
 import ainplmlimage from "../../images/partner-img/tensorflow_logo.png"
 import ainplmlimage2 from "../../images/partner-img/chatgptimage.png"
-
+import phythonlogo from "../../images/partner-img/phytonlogo.png"
 
 
 class PricingStyleFour extends Component {
@@ -163,6 +163,10 @@ class PricingStyleFour extends Component {
                               <img src={PartnerImg7} alt="Partner" />
                               <img src={PartnerHoverImg7} alt="Partner" />
                             </SwiperSlide>
+                            <SwiperSlide className="single-ml-partner">
+                              <img src={phythonlogo} alt="Partner" />
+                              <img src={phythonlogo} alt="Partner" />
+                            </SwiperSlide>
                           </Swiper>
                         </div>
                     </div>
@@ -257,6 +261,10 @@ class PricingStyleFour extends Component {
                         <SwiperSlide className="single-ml-partner">
                           <img src={ainplmlimage2} alt="Partner" />
                           <img src={ainplmlimage2} alt="Partner" />
+                        </SwiperSlide>
+                        <SwiperSlide className="single-ml-partner">
+                          <img src={phythonlogo} alt="Partner" />
+                          <img src={phythonlogo} alt="Partner" />
                         </SwiperSlide>
 
                       </Swiper>
