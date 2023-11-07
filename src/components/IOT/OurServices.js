@@ -8,7 +8,7 @@ const OurServices = () => {
       <div className="iot-services-area pt-80 pb-50">
         <div className="container justify-content-center">
           <div className="section-title">
-            <h2>Our Featured Services that We Provide</h2>
+            <h2>Industries</h2>
             <div className="bar"></div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -23,7 +23,7 @@ const OurServices = () => {
                   <i className="flaticon-software"></i>
                 </div>
 
-                <h3>Software IoT Solutions</h3>
+                <h3>Ecommerce</h3>
                 <p>
                   Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do
                   eiusmod tempor incididunt ut labore dolore magna aliqua.
@@ -41,7 +41,7 @@ const OurServices = () => {
                   <i className="flaticon-gear"></i>
                 </div>
 
-                <h3>Office IoT Solutions</h3>
+                <h3>Health Tech</h3>
                 <p>
                   Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do
                   eiusmod tempor incididunt ut labore dolore magna aliqua.
@@ -59,7 +59,7 @@ const OurServices = () => {
                   <i className="flaticon-skyline"></i>
                 </div>
 
-                <h3>Smart City IoT Solutions</h3>
+                <h3>Ed Tech</h3>
                 <p>
                   Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do
                   eiusmod tempor incididunt ut labore dolore magna aliqua.
@@ -77,7 +77,7 @@ const OurServices = () => {
                   <i className="flaticon-car-insurance"></i>
                 </div>
 
-                <h3>Automative IoT Solutions</h3>
+                <h3>IoT</h3>
                 <p>
                   Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do
                   eiusmod tempor incididunt ut labore dolore magna aliqua.
@@ -95,7 +95,7 @@ const OurServices = () => {
                   <i className="flaticon-factory"></i>
                 </div>
 
-                <h3>Industrial IoT Solutions</h3>
+                <h3>CRM</h3>
                 <p>
                   Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do
                   eiusmod tempor incididunt ut labore dolore magna aliqua.
@@ -113,7 +113,7 @@ const OurServices = () => {
                   <i className="flaticon-chip"></i>
                 </div>
 
-                <h3>System on Chip IoT Solutions</h3>
+                <h3>BlockChain</h3>
                 <p>
                   Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do
                   eiusmod tempor incididunt ut labore dolore magna aliqua.

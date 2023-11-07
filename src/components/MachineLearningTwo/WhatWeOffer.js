@@ -20,7 +20,7 @@ const WhatWeOffer = () => {
         <div className="container">
           <div className="section-title">
             <span className="sub-title">What We Offer</span>
-            <h2>Our Featured Solutions</h2>
+            <h2>Software Development & Consulting Services</h2>
             <div className="bar"></div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -35,7 +35,7 @@ const WhatWeOffer = () => {
                   <img src={Icon4} alt="Icon" />
                 </div>
                 <h3>
-                  <Link to="/service-details">Robotic Automation</Link>
+                  <Link to="/service-details">Web Applicatoin Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
@@ -54,7 +54,7 @@ const WhatWeOffer = () => {
                   <img src={Icon5} alt="Icon" />
                 </div>
                 <h3>
-                  <Link to="/service-details">Cognitive Automation</Link>
+                  <Link to="/service-details">Mobile App Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
@@ -73,7 +73,7 @@ const WhatWeOffer = () => {
                   <img src={Icon6} alt="Icon" />
                 </div>
                 <h3>
-                  <Link to="/service-details">Cognitive Engagement</Link>
+                  <Link to="/service-details">Cloud Services</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
@@ -92,7 +92,7 @@ const WhatWeOffer = () => {
                   <img src={Icon7} alt="Icon" />
                 </div>
                 <h3>
-                  <Link to="/service-details">Security & Surveillance</Link>
+                  <Link to="/service-details">Blockchain Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
@@ -104,6 +104,115 @@ const WhatWeOffer = () => {
                 </Link>
               </div>
             </div>
+            <div className="col-lg-3 col-sm-6 col-md-6">
+              <div className="single-solutions-box">
+                <div className="icon">
+                  <img src={Icon7} alt="Icon" />
+                </div>
+                <h3>
+                  <Link to="/service-details">AI Development</Link>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
+                  tempor incididunt ut labore dolore magna aliqua.
+                </p>
+
+                <Link to="/service-details" className="learn-more-btn">
+                  <Icon.PlusCircle /> Learn More
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6 col-md-6">
+              <div className="single-solutions-box">
+                <div className="icon">
+                  <img src={Icon7} alt="Icon" />
+                </div>
+                <h3>
+                  <Link to="/service-details">Computer Vision</Link>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
+                  tempor incididunt ut labore dolore magna aliqua.
+                </p>
+
+                <Link to="/service-details" className="learn-more-btn">
+                  <Icon.PlusCircle /> Learn More
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6 col-md-6">
+              <div className="single-solutions-box">
+                <div className="icon">
+                  <img src={Icon7} alt="Icon" />
+                </div>
+                <h3>
+                  <Link to="/service-details">Natural Language Processing</Link>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
+                  tempor incididunt ut labore dolore magna aliqua.
+                </p>
+
+                <Link to="/service-details" className="learn-more-btn">
+                  <Icon.PlusCircle /> Learn More
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6 col-md-6">
+              <div className="single-solutions-box">
+                <div className="icon">
+                  <img src={Icon7} alt="Icon" />
+                </div>
+                <h3>
+                  <Link to="/service-details">Big Data Analytics</Link>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
+                  tempor incididunt ut labore dolore magna aliqua.
+                </p>
+
+                <Link to="/service-details" className="learn-more-btn">
+                  <Icon.PlusCircle /> Learn More
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6 col-md-6">
+              <div className="single-solutions-box">
+                <div className="icon">
+                  <img src={Icon7} alt="Icon" />
+                </div>
+                <h3>
+                  <Link to="/service-details">UI & UX</Link>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
+                  tempor incididunt ut labore dolore magna aliqua.
+                </p>
+
+                <Link to="/service-details" className="learn-more-btn">
+                  <Icon.PlusCircle /> Learn More
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6 col-md-6">
+              <div className="single-solutions-box">
+                <div className="icon">
+                  <img src={Icon7} alt="Icon" />
+                </div>
+                <h3>
+                  <Link to="/service-details">Digital Marketing</Link>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
+                  tempor incididunt ut labore dolore magna aliqua.
+                </p>
+
+                <Link to="/service-details" className="learn-more-btn">
+                  <Icon.PlusCircle /> Learn More
+                </Link>
+              </div>
+            </div>
+            
           </div>
         </div>
 

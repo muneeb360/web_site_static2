@@ -17,7 +17,7 @@ import Newsletter from "../components/Common/Newsletter"
 import Footer from "../components/_App/Footer"
 import Services from "../components/BigdataAnalytics/Services"
 import Navbar from "../components/_App/Navbar"
-
+import OurServicesN from "../components/IOT/OurServices"
 
 const MachineLearningHomePage2 = () => (
   <Layout>
@@ -28,8 +28,9 @@ const MachineLearningHomePage2 = () => (
     {/* <Partner /> */}
     <WhatWeOffer />
     <AboutUsContent />
-    <Services />
-    {/* <OurServices /> */}
+    {/* <Services /> */}
+    
+   <OurServicesN />
     <FunFactsArea />
     <Projects />
     <PricingStyleFour />
