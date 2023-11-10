@@ -35,7 +35,7 @@ const WhatWeOffer = () => {
                   <img src={Icon4} alt="Icon" />
                 </div>
                 <h3>
-                  <Link to="/service-details">Web Applicatoin Development</Link>
+                  <Link to="/service-details">Web Application Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
@@ -73,7 +73,7 @@ const WhatWeOffer = () => {
                   <img src={Icon6} alt="Icon" />
                 </div>
                 <h3>
-                  <Link to="/service-details">Cloud Services</Link>
+                  <Link to="/service-details">Cloud/DevOps Services</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
@@ -110,7 +110,7 @@ const WhatWeOffer = () => {
                   <img src={Icon7} alt="Icon" />
                 </div>
                 <h3>
-                  <Link to="/service-details">AI Development</Link>
+                  <Link to="/service-details">AI/CV/NLP Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
@@ -122,7 +122,7 @@ const WhatWeOffer = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 col-md-6">
+            {/* <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-solutions-box">
                 <div className="icon">
                   <img src={Icon7} alt="Icon" />
@@ -139,8 +139,8 @@ const WhatWeOffer = () => {
                   <Icon.PlusCircle /> Learn More
                 </Link>
               </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 col-md-6">
+            </div> */}
+            {/* <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-solutions-box">
                 <div className="icon">
                   <img src={Icon7} alt="Icon" />
@@ -157,7 +157,7 @@ const WhatWeOffer = () => {
                   <Icon.PlusCircle /> Learn More
                 </Link>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-3 col-sm-6 col-md-6">
               <div className="single-solutions-box">
                 <div className="icon">
