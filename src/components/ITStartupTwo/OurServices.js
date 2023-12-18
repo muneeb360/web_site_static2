@@ -8,7 +8,7 @@ const OurServices = () => {
       <div className="services-area-two pt-80 pb-50 bg-f7fafd">
         <div className="container">
           <div className="section-title">
-            <h2>Our Services</h2>
+            <h2>Software Development & Consulting Services</h2>
             <div className="bar"></div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -29,7 +29,7 @@ const OurServices = () => {
                   <Icon.Settings />
                 </div>
                 <h3>
-                  <Link to="/service-details">Incredible Infrastructure</Link>
+                  <Link to="/service-details">Web Application Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
@@ -50,7 +50,7 @@ const OurServices = () => {
                   <Icon.Mail />
                 </div>
                 <h3>
-                  <Link to="/service-details">Email Notifications</Link>
+                  <Link to="/service-details">Mobile App Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
@@ -71,7 +71,7 @@ const OurServices = () => {
                   <Icon.Bell />
                 </div>
                 <h3>
-                  <Link to="/service-details">Best Analytics Audits</Link>
+                  <Link to="/service-details">Cloud/DevOps Services</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
@@ -92,7 +92,7 @@ const OurServices = () => {
                   <Icon.Grid />
                 </div>
                 <h3>
-                  <Link to="/service-details">Simple Dashboard</Link>
+                  <Link to="/service-details">Blockchain Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
@@ -113,7 +113,7 @@ const OurServices = () => {
                   <Icon.Info />
                 </div>
                 <h3>
-                  <Link to="/service-details">Information Retrieval</Link>
+                  <Link to="/service-details">AI/CV/NLP Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
@@ -134,7 +134,7 @@ const OurServices = () => {
                   <Icon.HardDrive />
                 </div>
                 <h3>
-                  <Link to="/service-details">Deep Technical SEO</Link>
+                  <Link to="/service-details">Big Data Analytics</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
@@ -155,7 +155,7 @@ const OurServices = () => {
                   <Icon.MousePointer />
                 </div>
                 <h3>
-                  <Link to="/service-details">Drag & Drop Functionality</Link>
+                  <Link to="/service-details">UI & UX</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
@@ -176,7 +176,7 @@ const OurServices = () => {
                   <Icon.Bell />
                 </div>
                 <h3>
-                  <Link to="/service-details">Deadline Reminders</Link>
+                  <Link to="/service-details">Digital Marketing</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
