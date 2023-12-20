@@ -29,7 +29,7 @@ const OurServices = () => {
                   <Icon.Settings />
                 </div>
                 <h3>
-                  <Link to="/service-details">Web Application Development</Link>
+                  <Link to="/web-application">Web Application Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
@@ -50,7 +50,7 @@ const OurServices = () => {
                   <Icon.Mail />
                 </div>
                 <h3>
-                  <Link to="/service-details">Mobile App Development</Link>
+                  <Link to="/mobile-app-service">Mobile App Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
@@ -71,7 +71,7 @@ const OurServices = () => {
                   <Icon.Bell />
                 </div>
                 <h3>
-                  <Link to="/service-details">Cloud/DevOps Services</Link>
+                  <Link to="/cloud-devops-serverices">Cloud/DevOps Services</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
@@ -92,7 +92,7 @@ const OurServices = () => {
                   <Icon.Grid />
                 </div>
                 <h3>
-                  <Link to="/service-details">Blockchain Development</Link>
+                  <Link to="/blockchain-development">Blockchain Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
@@ -113,7 +113,7 @@ const OurServices = () => {
                   <Icon.Info />
                 </div>
                 <h3>
-                  <Link to="/service-details">AI/CV/NLP Development</Link>
+                  <Link to="/ai-cv-nlp-development">AI/CV/NLP Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
@@ -134,7 +134,7 @@ const OurServices = () => {
                   <Icon.HardDrive />
                 </div>
                 <h3>
-                  <Link to="/service-details">Big Data Analytics</Link>
+                  <Link to="/big-data-analytics">Big Data Analytics</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
@@ -142,7 +142,9 @@ const OurServices = () => {
                 </p>
               </div>
             </div>
+            <div className="col-lg-2 col-md-4">
 
+            </div>
             <div
               className="col-lg-4 col-md-6"
               data-aos="fade-up"
@@ -155,7 +157,7 @@ const OurServices = () => {
                   <Icon.MousePointer />
                 </div>
                 <h3>
-                  <Link to="/service-details">UI & UX</Link>
+                  <Link to="/ui-ux">UI & UX</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
@@ -176,7 +178,7 @@ const OurServices = () => {
                   <Icon.Bell />
                 </div>
                 <h3>
-                  <Link to="/service-details">Digital Marketing</Link>
+                  <Link to="/digital-marketing">Digital Marketing</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
@@ -184,15 +186,17 @@ const OurServices = () => {
                 </p>
               </div>
             </div>
+            <div className="col-lg-2 col-md-4">
 
-            <div
+</div>
+           {/* <div
               className="col-lg-4 col-md-6"
               data-aos="fade-up"
               data-aos-delay="900"
               data-aos-duration="1200"
               data-aos-once="false"
             >
-              <div className="single-services-box">
+               <div className="single-services-box">
                 <div className="icon bg-eb6b3d">
                   <Icon.Send />
                 </div>
@@ -203,8 +207,8 @@ const OurServices = () => {
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
                   incididunt ut labore dolore magna aliqua.
                 </p>
-              </div>
-            </div>
+              </div> 
+            </div>*/}
           </div>
         </div>
       </div>
