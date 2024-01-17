@@ -11,13 +11,12 @@ const OurServices = () => {
             <h2>Industries</h2>
             <div className="bar"></div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             </p>
           </div>
 
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-repair-services bg1">
                 <div className="icon">
                   <i className="flaticon-software"></i>
@@ -25,8 +24,7 @@ const OurServices = () => {
 
                 <h3>Ecommerce</h3>
                 <p>
-                  Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do
-                  eiusmod tempor incididunt ut labore dolore magna aliqua.
+                  Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed 
                 </p>
 
                 <Link to="/service-details">
@@ -35,7 +33,7 @@ const OurServices = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-repair-services bg2">
                 <div className="icon">
                   <i className="flaticon-gear"></i>
@@ -43,8 +41,7 @@ const OurServices = () => {
 
                 <h3>Health Tech</h3>
                 <p>
-                  Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do
-                  eiusmod tempor incididunt ut labore dolore magna aliqua.
+                  Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed 
                 </p>
 
                 <Link to="/service-details">
@@ -53,7 +50,7 @@ const OurServices = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-repair-services bg3">
                 <div className="icon">
                   <i className="flaticon-skyline"></i>
@@ -61,8 +58,7 @@ const OurServices = () => {
 
                 <h3>Ed Tech</h3>
                 <p>
-                  Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do
-                  eiusmod tempor incididunt ut labore dolore magna aliqua.
+                  Lorem ipsum eiusmod dolor sit amet elit, adipiscing, 
                 </p>
 
                 <Link to="/service-details">
@@ -71,7 +67,7 @@ const OurServices = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-repair-services bg4">
                 <div className="icon">
                   <i className="flaticon-car-insurance"></i>
@@ -79,8 +75,7 @@ const OurServices = () => {
 
                 <h3>IoT</h3>
                 <p>
-                  Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do
-                  eiusmod tempor incididunt ut labore dolore magna aliqua.
+                  Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed 
                 </p>
 
                 <Link to="/service-details">
@@ -89,7 +84,7 @@ const OurServices = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-repair-services bg5">
                 <div className="icon">
                   <i className="flaticon-factory"></i>
@@ -97,8 +92,7 @@ const OurServices = () => {
 
                 <h3>CRM</h3>
                 <p>
-                  Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do
-                  eiusmod tempor incididunt ut labore dolore magna aliqua.
+                  Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed 
                 </p>
 
                 <Link to="/service-details">
@@ -107,7 +101,7 @@ const OurServices = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-repair-services bg6">
                 <div className="icon">
                   <i className="flaticon-chip"></i>
@@ -115,8 +109,7 @@ const OurServices = () => {
 
                 <h3>BlockChain</h3>
                 <p>
-                  Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do
-                  eiusmod tempor incididunt ut labore dolore magna aliqua.
+                  Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed 
                 </p>
 
                 <Link to="/service-details">
@@ -124,7 +117,7 @@ const OurServices = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-repair-services bg6">
                 <div className="icon">
                   <i className="flaticon-chip"></i>
@@ -132,8 +125,7 @@ const OurServices = () => {
 
                 <h3>On-Demand Services</h3>
                 <p>
-                  Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do
-                  eiusmod tempor incididunt ut labore dolore magna aliqua.
+                  Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed 
                 </p>
 
                 <Link to="/service-details">

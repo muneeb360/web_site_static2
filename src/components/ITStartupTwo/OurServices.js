@@ -14,11 +14,12 @@ const OurServices = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
+            
           </div>
 
           <div className="row justify-content-center">
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
               data-aos-delay="100"
               data-aos-duration="1200"
@@ -33,13 +34,16 @@ const OurServices = () => {
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua.
+                  incididunt ut labore dolore magna.
                 </p>
+                <Link to="/web-application">
+                  <Icon.ArrowRight />
+                </Link>
               </div>
             </div>
 
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-duration="1200"
@@ -56,11 +60,14 @@ const OurServices = () => {
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
                   incididunt ut labore dolore magna aliqua.
                 </p>
+                <Link to="/mobile-app-service">
+                  <Icon.ArrowRight />
+                </Link>
               </div>
             </div>
 
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-duration="1200"
@@ -77,11 +84,14 @@ const OurServices = () => {
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
                   incididunt ut labore dolore magna aliqua.
                 </p>
+                <Link to="/cloud-devops-serverices">
+                  <Icon.ArrowRight />
+                </Link>
               </div>
             </div>
 
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-duration="1200"
@@ -98,11 +108,14 @@ const OurServices = () => {
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
                   incididunt ut labore dolore magna aliqua.
                 </p>
+                <Link to="/blockchain-development">
+                  <Icon.ArrowRight />
+                </Link>
               </div>
             </div>
 
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1200"
@@ -119,11 +132,14 @@ const OurServices = () => {
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
                   incididunt ut labore dolore magna aliqua.
                 </p>
+                <Link to="/ai-cv-nlp-development">
+                  <Icon.ArrowRight />
+                </Link>
               </div>
             </div>
 
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
               data-aos-delay="600"
               data-aos-duration="1200"
@@ -140,13 +156,14 @@ const OurServices = () => {
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
                   incididunt ut labore dolore magna aliqua.
                 </p>
+                <Link to="/big-data-analytics">
+                  <Icon.ArrowRight />
+                </Link>
               </div>
             </div>
-            <div className="col-lg-2 col-md-4">
-
-            </div>
+    
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
               data-aos-delay="700"
               data-aos-duration="1200"
@@ -163,11 +180,14 @@ const OurServices = () => {
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
                   incididunt ut labore dolore magna aliqua.
                 </p>
+                <Link to="/ui-ux">
+                  <Icon.ArrowRight />
+                </Link>
               </div>
             </div>
 
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-3 col-md-6"
               data-aos="fade-up"
               data-aos-delay="800"
               data-aos-duration="1200"
@@ -184,11 +204,12 @@ const OurServices = () => {
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
                   incididunt ut labore dolore magna aliqua.
                 </p>
+                <Link to="/digital-marketing">
+                  <Icon.ArrowRight />
+                </Link>
               </div>
             </div>
-            <div className="col-lg-2 col-md-4">
-
-</div>
+           
            {/* <div
               className="col-lg-4 col-md-6"
               data-aos="fade-up"
