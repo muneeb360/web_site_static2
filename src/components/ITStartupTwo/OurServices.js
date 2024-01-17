@@ -34,7 +34,7 @@ const OurServices = () => {
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                  incididunt ut labore dolore magna.
+                  incididunt ut labore dolore magna aliqua.
                 </p>
                 <Link to="/web-application">
                   <Icon.ArrowRight />
