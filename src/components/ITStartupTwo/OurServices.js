@@ -30,7 +30,7 @@ const OurServices = () => {
                   <Icon.Settings />
                 </div>
                 <h3>
-                  <Link to="/web-application">Web Application Development</Link>
+                  <Link to="/web-application">Web App Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
