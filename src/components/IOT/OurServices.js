@@ -84,7 +84,7 @@ const OurServices = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-repair-services bg5">
                 <div className="icon">
                   <i className="flaticon-factory"></i>
@@ -101,7 +101,7 @@ const OurServices = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-repair-services bg6">
                 <div className="icon">
                   <i className="flaticon-chip"></i>
@@ -117,7 +117,7 @@ const OurServices = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-repair-services bg6">
                 <div className="icon">
                   <i className="flaticon-chip"></i>
