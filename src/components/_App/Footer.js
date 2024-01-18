@@ -191,6 +191,7 @@ const Footer = () => {
           <img src={Shape2} alt="shape" />
         </div>
       </footer>
+      
     </>
   )
 }

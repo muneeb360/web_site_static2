@@ -8,7 +8,7 @@ import Footer from "../components/_App/Footer"
 import PageBanner from "../components/Common/PageBanner"
 import FeedbackStyleFour from "../components/Common/FeedbackStyleFour"
 import Partner from "../components/MachineLearning/Partner"
-
+import Newsletter from "../components/Common/Newsletter"
 import AboutImg from "../images/about4.png"
 
 const Company = () => (
@@ -98,7 +98,7 @@ const Company = () => (
     <div className="pb-80">
       <Partner />
     </div>
-
+    <Newsletter />
     <Footer />
   </Layout>
 )

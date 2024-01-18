@@ -8463,6 +8463,12 @@ Go Top CSS
 }
 
 form#contactFormcontact {
+  width: 65%;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#contactFormcontactpage{
   width: 70%;
   margin: auto;
   padding-top: 60px;

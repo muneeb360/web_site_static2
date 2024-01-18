@@ -104,23 +104,6 @@ const Newsletter = () => {
                       />
                     </div>
                   </div>
-                  <div className="col-lg-12 col-md-12">
-                    <div className="form-group">
-                    <input type="checkbox"
-                     id="termsAndConditions"
-                      name="termsAndConditions"
-                      />
-<label for="termsAndConditions">I agree to the Terms and Conditions</label>
-                    <br></br>         
-                    <input type="checkbox"
-                     id="termsAndConditions"
-                      name="termsAndConditions"
-                      />
-<label for="termsAndConditions">get NDA</label>
-                      </div>
-                    </div>
-                  
-
                   <div className="col-lg-12 col-sm-12">
                     <button type="submit" className="btn btn-primary">
                       Send Message

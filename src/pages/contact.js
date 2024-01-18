@@ -19,7 +19,7 @@ const ContactPage = () => (
     {/* <GoogleMap /> */}
 
     <ContactForm />
-
+    
     <Footer />
   </Layout>
 )

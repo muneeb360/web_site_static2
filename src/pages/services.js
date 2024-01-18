@@ -14,7 +14,7 @@ import Feedback from "../components/Common/Feedback"
 import Partner from "../components/Common/Partner"
 import BlogPost from "../components/Common/BlogPost"
 import Footer from "../components/_App/Footer"
-
+import Newsletter from "../components/Common/Newsletter"
 const Services = () => (
   <Layout>
 
@@ -37,7 +37,7 @@ const Services = () => (
 
     <Partner />
 
-
+    <Newsletter />
     <Footer />
  
   </Layout>
