@@ -14,6 +14,7 @@ import {
 
 import ServicesDetails1 from "../images/services-details-image/services-details1.png"
 import ServicesDetails2 from "../images/services-details-image/services-details2.png"
+import Newsletter from "../components/Common/Newsletter"
 
 const ServiceDetailsPage = () => (
   <Layout>
@@ -130,7 +131,7 @@ const ServiceDetailsPage = () => (
         </div>
       </div>
     </div>
-
+    <Newsletter />
     <Footer />
   </Layout>
 )

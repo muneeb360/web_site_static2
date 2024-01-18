@@ -13,6 +13,7 @@ import FeedbackStyleThree from "../components/Common/FeedbackStyleThree"
 import BlogPostStyleTwo from "../components/Common/BlogPostStyleTwo"
 import CTAStyleTwo from "../components/Common/CTAStyleTwo"
 import Footer from "../components/_App/Footer"
+import Newsletter from "../components/Common/Newsletter"
 
 const DigitalAgencyHomePage = () => (
   <Layout>
@@ -27,6 +28,7 @@ const DigitalAgencyHomePage = () => (
     <FeedbackStyleThree />
     <BlogPostStyleTwo />
     <CTAStyleTwo />
+    <Newsletter />
     <Footer />
   </Layout>
 )

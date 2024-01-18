@@ -4,6 +4,7 @@ import Seo from "../components/_App/seo"
 import Navbar from "../components/_App/Navbar"
 import Footer from "../components/_App/Footer"
 import PageBanner from "../components/Common/PageBanner"
+import Newsletter from "../components/Common/Newsletter"
 import {
   Accordion,
   AccordionItem,
@@ -130,7 +131,7 @@ const ServiceDetailsPage = () => (
         </div>
       </div>
     </div>
-
+    <Newsletter />
     <Footer />
   </Layout>
 )
