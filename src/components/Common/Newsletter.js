@@ -111,10 +111,7 @@ const Newsletter = () => {
                       name="termsAndConditions"
                       />
 <label for="termsAndConditions">I agree to the Terms and Conditions</label>
-                    <br></br>
-                  
-                    
-                  
+                    <br></br>         
                     <input type="checkbox"
                      id="termsAndConditions"
                       name="termsAndConditions"
