@@ -8465,8 +8465,8 @@ Go Top CSS
 form#contactFormcontact {
   width: 70%;
   margin: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 input.form-control {
   border-radius: 10px;
