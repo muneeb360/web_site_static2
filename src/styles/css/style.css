@@ -8461,3 +8461,13 @@ Go Top CSS
   margin-top: 70px;
 
 }
+
+form#contactFormcontact {
+  width: 70%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+input.form-control {
+  border-radius: 10px;
+}
