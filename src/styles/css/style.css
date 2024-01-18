@@ -8474,6 +8474,6 @@ form#contactFormcontact {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-input.form-control {
+.form-control {
   border-radius: 10px;
 }
